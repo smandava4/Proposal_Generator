@@ -1,0 +1,80 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+div {
+  margin-top: 10px;
+}
+/* Document Preview */
+.document-preview {
+  padding: 20px;
+  background-color: #ffffff;
+  /* White background to resemble a document */
+  border: 1px solid #ddd;
+  /* Light grey border for a subtle outline */
+  border-radius: 8px;
+  /* Rounded corners for a modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Slight shadow to give a 3D effect */
+  max-width: 800px;
+  /* Restrict the width to resemble a page */
+  margin: 0 auto;
+  /* Center the document preview */
+  overflow-y: auto;
+  /* Allow scrolling if content exceeds height */
+  height: calc(100% - 40px);
+  /* Adjust height to fit within the viewport */
+}
+
+.document-preview h2 {
+  font-size: 1.75em;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 2px solid #4285F4;
+  /* Add a bottom border for separation */
+  padding-bottom: 10px;
+}
+
+.document-preview .preview-content {
+  padding: 20px;
+  font-size: 1em;
+  line-height: 1.6;
+  /* Increased line spacing for readability */
+}
+
+.document-preview h3 {
+  font-size: 1.25em;
+  color: #4285F4;
+  /* Blue color for section titles */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  /* Bottom border for section separation */
+  padding-bottom: 5px;
+}
+
+.document-preview p {
+  margin: 0 0 15px;
+  /* Space between paragraphs */
+  color: #333;
+}
+
+/* Scrollbar Styling */
+.document-preview::-webkit-scrollbar {
+  width: 8px;
+}
+
+.document-preview::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.document-preview::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+}
