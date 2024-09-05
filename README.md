@@ -15,7 +15,9 @@ The Proposal Generator is a web application designed to help users create and ma
 
 - **Frontend**: React, CSS
 - **Backend**: Express, Node.js
-- **API Integration**:Gooogle Gemini 
+- **API Integration**: OpenAI for language model suggestions
+- **Database**: [Specify if any database is used]
+- **Deployment**: [Specify deployment tools or platforms if any]
 
 ## Installation
 
@@ -73,6 +75,18 @@ The Proposal Generator is a web application designed to help users create and ma
 - **Request Body**: `{ "prompt": "Your prompt here" }`
 - **Response**: `{ "content": "Generated content" }`
 
+## Improvements
+
+### Planned Enhancements
+
+- **Enhanced LLM Integration**: Improving the accuracy and relevance of content suggestions.
+- **User Authentication**: Adding user authentication and authorization features to manage access and permissions.
+- **Advanced Formatting**: Supporting more advanced document formatting options similar to Microsoft Word.
+- **Real-Time Collaboration**: Implementing real-time collaborative editing features for multiple users working on the same proposal.
+- **Custom Templates**: Allowing users to create and use custom templates for different types of proposals.
+- **Export Options**: Adding options to export the proposal in different formats such as PDF or DOCX.
+- **Mobile Optimization**: Ensuring the application is fully responsive and optimized for mobile devices.
+
 ## Contributing
 
 Contributions are welcome! Please follow these steps to contribute:
@@ -83,5 +97,10 @@ Contributions are welcome! Please follow these steps to contribute:
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Create a new Pull Request.
 
+
+## Contact
+
+For any questions or feedback, please contact:
+- **Your Name**: Sai Roopesh Mandav [mandavasairoopesh@gmail.com] 
 
 
